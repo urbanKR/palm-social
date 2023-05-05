@@ -1,0 +1,62 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+#home-page {
+    width: 100%;
+    height: 100%;
+}
+
+#home-page-landing {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    background: radial-gradient(100% 154.22% at 22.01% 0%, #3D348B 22.47%, #393CB8 34.28%, #7678ED 57.17%, #C081D0 81.35%, #F7B801 96.55%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    min-height: 800px;
+}
+
+#landing-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing-left-content {
+    text-align: right;
+    padding: 1em 1em 1em 3em;
+}
+
+#landing-left-content h1 {
+    font-size: 5em;
+}
+
+#landing-left-content p {
+    font-size: 3em;
+}
+
+#landing-left-content button {
+    font-size: 2em;
+    padding: .5em;
+}
+
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {
+    #home-page-landing {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

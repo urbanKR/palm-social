@@ -1,0 +1,27 @@
+#email-verification {
+    text-align: center;
+    margin-top: 8em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+div {
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+    background: radial-gradient(100% 154.22% at 22.01% 0%, #3D348B 22.47%, #393CB8 34.28%, #7678ED 57.17%, #C081D0 81.35%, #F7B801 96.55%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+}
+
+div::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
