@@ -17,6 +17,14 @@ import { RegisterComponent } from './pages/register/register.component';
 import { FirebaseTSAuth } from 'firebasets/firebasetsAuth/firebaseTSAuth';
 import { EmailVerificationComponent } from './pages/email-verification/email-verification.component';
 import { MainPageComponent } from './pages/main-page/main-page.component';
+import { ProfileComponent } from './pages/profile/profile.component';
+import { SettingsPageComponent } from './pages/settings-page/settings-page.component';
+import { AccountPageComponent } from './pages/account-page/account-page.component';
+import { FeedbackPageComponent } from './pages/feedback-page/feedback-page.component';
+import { HelpPageComponent } from './pages/help-page/help-page.component';
+import { LanguagePageComponent } from './pages/language-page/language-page.component';
+import { NotificationOptionsPageComponent } from './pages/notification-options-page/notification-options-page.component';
+import { PrivacyPageComponent } from './pages/privacy-page/privacy-page.component';
 
 
 
@@ -29,7 +37,15 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
     Authenticator01Component,
     RegisterComponent,
     EmailVerificationComponent,
-    MainPageComponent
+    MainPageComponent,
+    ProfileComponent,
+    SettingsPageComponent,
+    AccountPageComponent,
+    FeedbackPageComponent,
+    HelpPageComponent,
+    LanguagePageComponent,
+    NotificationOptionsPageComponent,
+    PrivacyPageComponent
   ],
   imports: [
     BrowserModule,

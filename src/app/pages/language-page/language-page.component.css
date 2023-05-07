@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(100% 154.22% at 22.01% 0%, #3D348B 22.47%, #393CB8 34.28%, #7678ED 57.17%, #C081D0 81.35%, #F7B801 96.55%);
+  background-attachment: fixed;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 28px;
+}
+
+main {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#top-el {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 135px;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  left: 0px;
+  top: 135px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+#back-arrow {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+#back-arrow:hover {
+  cursor: pointer;
+}
+
+.button-language{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 10%;
+  background-color:inherit;
+  width: 100%;
+  font-family: 'Comfortaa';
+  font-size: 1.2rem;
+  border-color:rgba(255, 255, 255, 0.2);
+  text-align: left;
+
+}
+.button-language:hover {
+  cursor: pointer;
+}
+@media (max-width: 992px) {
+  .button-language{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    font-size: 0.8rem;
+  }
+
+
+}
